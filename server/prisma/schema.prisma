@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "ravendb"
+  provider = "postgresql"
   url      = "file:./dev.db"
 }
 
